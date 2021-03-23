@@ -27,8 +27,8 @@
   font-weight: bold;
   color: #2c3e50;
   position:absolute;
-  right:0;
-  top:0;
+  right:1%;
+  top:1%;
 
 }
 
