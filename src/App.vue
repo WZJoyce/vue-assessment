@@ -5,10 +5,14 @@
       <router-link to="/challenge-1">Challenge 1</router-link> | 
       <router-link to="/challenge-2">Challenge 2</router-link> | 
       <router-link to="/challenge-3">Challenge 3</router-link> |
-      <router-link to="/final">Final</router-link>
+      <router-link to="/final">Final</router-link> |   
+
     </div>
-    <router-view/>
+          <a href="https://github.com/WZJoyce/vue-assessment" target="_blank" id="git">Github Link</a>
+    <router-view/> 
+  
   </div>
+  
 </template>
 
 <style>
@@ -18,6 +22,14 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+#git{
+  font-weight: bold;
+  color: #2c3e50;
+  position:absolute;
+  right:0;
+  top:0;
+
 }
 
 #nav {
